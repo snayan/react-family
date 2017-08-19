@@ -10,7 +10,8 @@ import * as containers from "../container";
 const Routers = (
   <Router>
     <Switch>
-      <Route path="/login" component={containers.Login} />
+      <Route path="/login" component={containers.LoginPage} />
+      <Route path="/charts" component={containers.ChartsPage} />
       <Redirect to="login" exact={true} />
     </Switch>
   </Router>
